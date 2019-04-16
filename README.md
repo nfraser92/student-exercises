@@ -1,1 +1,1 @@
-# student-exercises-1
+# student-exercises
