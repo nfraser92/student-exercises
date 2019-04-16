@@ -9,13 +9,14 @@ namespace StudentExercises
         public string LastName {get; set;}
         public string SlackHandle {get; set;}
 
-        public string Cohort { get; set;}
+        public Cohort Cohort { get; set;}
 
-        public Instructor (string fname, string lname, string slack)
+        public Instructor (string fname, string lname, string slack, Cohort cohort)
         {
             FirstName = fname;
             LastName = lname;
             SlackHandle = slack;
+            Cohort = cohort;
         }
 
         public void AssignExercise (Student student, Exercise exercise)
